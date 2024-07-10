@@ -1,7 +1,10 @@
 # docker-android
 Easily start an Android emulator, Appium server, and Maven in Docker for mobile testing
 
-https://hub.docker.com/repository/docker/fahleiro/docker-android/general
+[![followIn-DockerHub](https://img.shields.io/badge/followIn-DockerHub-blue?logo=docker&logoColor=white)](https://hub.docker.com/repository/docker/fahleiro/docker-android/general/ "Go to Docker homepage")
+
+![imageBasedOn-Linux](https://img.shields.io/badge/imageBasedOn-Linux-purple?logo=linux&logoColor=white)
+
 
 # Use example
 `ssudo docker run -d --privileged --name your-container-name fahleiro/docker-android:1.0`
