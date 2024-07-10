@@ -27,7 +27,7 @@
   - git
   - maven
 
-## Bugs 
+## Feature 
 **if container stop, can't intialize again**
 <details>
 <summary>container logs</summary>
