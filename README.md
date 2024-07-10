@@ -25,15 +25,16 @@ Exit container and execute `docker cp android-emulator-container:/screenshot.png
 
 _captured screenshot moved to your Desktop_
 
-# Dependencies
-- curl
-- unzip
-- openjdk-17-jdk
-- Node.js /  npm
-- Appium
-- uiautomator2
-- Android SDK
-- Android Emulator
-- Android Platform-Tools
-- Android Build-Tools
-- Android System Images
+# Dependencies included
+- [X] curl
+- [X] unzip
+- [X] openjdk-17-jdk
+- [X] Node.js /  npm
+- [X] Appium
+- [X] uiautomator2
+- [X] Android SDK
+- [X] Android Emulator
+- [X] Android Platform-Tools
+- [X] Android Build-Tools
+- [X] Android System Images
+- [ ] maven
