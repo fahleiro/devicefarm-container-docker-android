@@ -27,7 +27,7 @@ emulator-5554 device
 
 container execute `adb exec-out screencap -p > /screenshot.png`
 
-Exit container and execute `docker cp android-emulator-container:/screenshot.png ~/Desktop/screenshot.png`
+Exit container and execute `docker cp your-container-name:/screenshot.png ~/Desktop/screenshot.png`
 
 _captured screenshot moved to your Desktop_
 
