@@ -38,3 +38,4 @@ _captured screenshot moved to your Desktop_
 - [X] Android Build-Tools
 - [X] Android System Images
 - [ ] maven
+- [ ] git
