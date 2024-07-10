@@ -17,8 +17,8 @@
 - Android Platform-Tools
 - Android Build-Tools
 - Android System Images
-- [ ] git
-- [ ] maven
+- [X] git
+- [X] maven
 
 # Status
 ![status](https://img.shields.io/badge/build-successfull-green?style=for-the-badge)
