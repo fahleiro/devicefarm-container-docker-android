@@ -28,8 +28,9 @@
   - maven
 
 ## Bugs 
+**if container stop, can't intialize again**
 <details>
-<summary> if container stop, can't intialize again </summary>
+<summary>container logs</summary>
   
 ```
 ##############################################################################
