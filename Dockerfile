@@ -7,13 +7,11 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y \
 
     curl \
-
     unzip \
-
     openjdk-17-jdk \
-
+    git \
+    maven \
     && apt-get clean \
-
     && rm -rf /var/lib/apt/lists/*
 
 
