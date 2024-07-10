@@ -7,7 +7,7 @@ Easily start an Android emulator, Appium server, and Maven in Docker for mobile 
 
 
 # Use example
-`ssudo docker run -d --privileged --name your-container-name fahleiro/docker-android:1.0`
+`sudo docker run -d --privileged --name your-container-name fahleiro/docker-android:1.0`
 
 _ps: your machine need available kvm-on_
 
