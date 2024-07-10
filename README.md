@@ -25,7 +25,7 @@ Exit container and execute `docker cp android-emulator-container:/screenshot.png
 
 _captured screenshot moved to your Desktop_
 
-# Dependencies 1.0.0 / 1.0.1
+# Dependencies
 - curl
 - unzip
 - openjdk-17-jdk
