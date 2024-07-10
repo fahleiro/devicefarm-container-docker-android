@@ -28,7 +28,7 @@
   - maven
 
 ## Feature 
-- [ ] **if container stop, can't intialize again**
+- [X] **if container stop, can't intialize again**
 <details>
 <summary>container logs</summary>
   
