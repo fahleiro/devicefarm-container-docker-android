@@ -1,8 +1,9 @@
 # Changelog
 
-### FROM v1.0.0
-- remove port exposure 5554
-
+## New 
+**included in Dockerfile**:
+  - git
+  - maven
 
 # Dependencies
 - curl
@@ -16,3 +17,8 @@
 - Android Platform-Tools
 - Android Build-Tools
 - Android System Images
+- [ ] git
+- [ ] maven
+
+# Status
+![status - test pending](https://img.shields.io/badge/status-test_pending-blue?style=for-the-badge)
