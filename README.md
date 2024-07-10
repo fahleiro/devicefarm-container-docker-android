@@ -23,6 +23,6 @@
 # Status
 ![status](https://img.shields.io/badge/build-successfull-green?style=for-the-badge)
 
-![status](https://img.shields.io/badge/test-pending-blue?style=for-the-badge)
+![status](https://img.shields.io/badge/test-successfull-green?style=for-the-badge)
 
 ![status](https://img.shields.io/badge/release-pending-blue?style=for-the-badge)
