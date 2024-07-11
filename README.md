@@ -21,7 +21,7 @@ _ps: your machine need available kvm-on_
 
 - **Method 1 - Check on devices**
 
-Inside container execute `adb devices` and must return some like this
+Inside container execute ```adb devices``` and must return some like this
 ```
 List of devices attached
 emulator-5554 device
@@ -29,9 +29,9 @@ emulator-5554 device
 
 - **Method 2 - Take a screenshot**
 
-container execute `adb exec-out screencap -p > /screenshot.png`
+container execute ```adb exec-out screencap -p > /screenshot.png```
 
-Exit container and execute `docker cp your-container-name:/screenshot.png ~/Desktop/screenshot.png`
+Exit container and execute ```docker cp your-container-name:/screenshot.png ~/Desktop/screenshot.png```
 
 _captured screenshot moved to your Desktop_
 
