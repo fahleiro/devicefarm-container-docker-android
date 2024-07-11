@@ -9,7 +9,9 @@ Easily start an Android emulator, Appium server, and Maven in Docker for mobile 
 - You can restart container any times you want, but everytime the device is started by image, this use -no-snapshot. So if you do it, your changes will not be saved just in emulator. Changes made in container will remain.
 
 # Use example
-`sudo docker run -d --privileged --name your-container-name fahleiro/docker-android:version`
+```
+sudo docker run -d --privileged --name your-container-name fahleiro/docker-android
+```
 
 _ps: your machine need available kvm-on_
 
