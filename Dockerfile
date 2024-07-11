@@ -63,4 +63,6 @@ RUN mkdir -p $ANDROID_HOME \
 RUN echo "no" | avdmanager create avd -n device-1 -k "system-images;android-27;google_apis_playstore;x86" -d pixel_4
 
 
-CMD emulator -avd device-1 -port 5554 -no-audio -no-boot-anim -no-window
+CMD rm -rf $HOME/.android/avd/device-1.avd/*.lock \ 
+    && rm -rf $ANDROID_HOME/avd/device-1.avd/*.lock \
+    && emulator -avd device-1 -port 5554 -no-audio -no-boot-anim -no-window -no-snapshot -read-only
