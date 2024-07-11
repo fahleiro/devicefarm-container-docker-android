@@ -1,17 +1,17 @@
 [![status](https://img.shields.io/badge/status-published-green?style=for-the-badge)](https://hub.docker.com/layers/fahleiro/docker-android/1.1.0/images/sha256-087590e5bef6be561dfb618f6a838d09e0d536c1908150b588f4b004b0f4c793?context=repo)
 
 # Dependencies
-- curl
-- unzip
-- openjdk-17-jdk
-- Node.js /  npm
-- Appium
-- uiautomator2
-- Android SDK
-- Android Emulator
-- Android Platform-Tools
-- Android Build-Tools
-- Android System Images
+- [X] curl
+- [X] unzip
+- [X] openjdk-17-jdk
+- [X] Node.js /  npm
+- [X] Appium
+- [X] uiautomator2
+- [X] Android SDK
+- [X] Android Emulator
+- [X] Android Platform-Tools
+- [X] Android Build-Tools
+- [X] Android System Images
 - [X] git
 - [X] maven
 
