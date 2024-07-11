@@ -1,9 +1,4 @@
-# Status
-![status](https://img.shields.io/badge/build-successfull-green?style=for-the-badge)
-
-![status](https://img.shields.io/badge/test-successfull-green?style=for-the-badge)
-
-![status](https://img.shields.io/badge/release-pending-blue?style=for-the-badge)
+[![status](https://img.shields.io/badge/status-published-green?style=for-the-badge)](https://hub.docker.com/layers/fahleiro/docker-android/1.1.0/images/sha256-087590e5bef6be561dfb618f6a838d09e0d536c1908150b588f4b004b0f4c793?context=repo)
 
 # Dependencies
 - curl
@@ -29,6 +24,11 @@
 
 ## Feature 
 - [X] **if container stop, can't intialize again**
+
+`
+Now you can stop and start container again
+`
+
 <details>
 <summary>container logs</summary>
   
