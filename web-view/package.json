@@ -1,0 +1,19 @@
+{
+
+  "name": "web-view-server",
+
+  "version": "1.0.0",
+
+  "description": "Server for displaying Android emulator screen in real-time",
+
+  "main": "server.js",
+
+  "dependencies": {
+
+    "express": "^4.17.2",
+
+    "socket.io": "^4.4.1"
+
+  }
+
+}
