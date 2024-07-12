@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Emulator Viewer</title>
+
+  <style>
+
+    body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: #000; }
+
+    .container { width: 600px; height: 800px; display: flex; justify-content: center; align-items: center; overflow: hidden; }
+
+    #screen { width: 100%; height: 100%; object-fit: fill; }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <img id="screen" src="" alt="Emulator Screen">
+
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+
+  <script>
+
+    const socket = io();
+
+    const screen = document.getElementById('screen');
+
+
+    socket.on('connect', () => {
+
+      console.log('Connected to server');
+
+    });
+
+
+    socket.on('disconnect', () => {
+
+      console.log('Disconnected from server');
+
+    });
+
+
+    let isReceivingFrame = false; // Flag para evitar renderização simultânea
+
+
+    socket.on('frame', (data) => {
+
+      if (isReceivingFrame) return;
+
+      isReceivingFrame = true;
+
+
+      const img = new Image();
+
+      img.onload = () => {
+
+        screen.src = img.src;
+
+        isReceivingFrame = false;
+
+      };
+
+      img.src = 'data:image/png;base64,' + data;
+
+    });
+
+  </script>
+
+</body>
+
+</html>
