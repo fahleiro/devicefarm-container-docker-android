@@ -22,4 +22,4 @@
 
 
 ## Feature 
-- [X] Web panel to start / stop emulator
+- [ ] Web panel to start / stop emulator
