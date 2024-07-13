@@ -99,4 +99,4 @@ CMD rm -rf $HOME/.android/avd/device-1.avd/*.lock \
 
     && rm -rf $ANDROID_HOME/avd/device-1.avd/*.lock \
 
-    && (emulator -avd device-1 -port 5554 -no-audio -no-boot-anim -no-window -no-snapshot -read-only & npm start)
+    && npm start
