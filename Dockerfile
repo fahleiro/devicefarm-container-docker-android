@@ -98,5 +98,7 @@ RUN yes | npm install
 CMD rm -rf $HOME/.android/avd/device-1.avd/*.lock \
 
     && rm -rf $ANDROID_HOME/avd/device-1.avd/*.lock \
+    && tail -f /dev/null
 
-    && npm start
+RUN yes | apt-get update 
+RUN apt install nano
