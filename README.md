@@ -15,11 +15,10 @@
 - [X] git
 - [X] maven
 - [X] npm
+- [X] nano
 
 # Changelog
 
-## New 
-
-
-## Feature 
-- [ ] Web panel to start / stop emulator
+## New
+- add nano
+- remove emulator start / web-view start from container initial
