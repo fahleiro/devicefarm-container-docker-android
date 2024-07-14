@@ -129,19 +129,10 @@ COPY web-view /web-view
 # Define o diretório de trabalho como /web-view
 
 
-WORKDIR /web-view
+RUN cd /web-view && yes | npm install
 
 
-
-# Instala as dependências do projeto Node.js
-
-
-RUN yes | npm install
-
-
-# Inicia o servidor e o emulador Android
-
-
+# Remove arquivos de historico do device
 CMD rm -rf $HOME/.android/avd/device-1.avd/*.lock \
 
 
