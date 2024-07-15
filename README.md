@@ -20,5 +20,3 @@
 # Changelog
 
 ## New
-- add nano
-- remove emulator start / web-view start from container initial
